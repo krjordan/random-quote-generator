@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex: 1;
+}
+h2 {
+	padding: 3.125em 0;
+	font-weight: 700;
+	font-style: italic;
+}
+p {
+	max-width: 43.750em;
+}
+#btn-quote {
+	padding: 0.625em;
+	margin: 3.125em 0;
+	background-color: #337ab7;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+#btn-quote:hover {
+	background-color: #2e6da4;
+}
+blockquote {
+	background-color: #f9f9f9;
+	border-left: 10px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: '\201C''\201D''\2018''\2019';
+}
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote p, blockquote span {
+	padding: 0.938em 0;
+}
+#btn-tweet {
+	padding-left: 1.563em;
+	cursor: pointer;
+	color: #4099ff;
+}
+#btn-tweet:hover {
+	color: #0065d9;
+}
+.load {
+	padding: 6.250em 0;
+}
+footer {
+	padding: 0.938em;
+}
+footer a {
+	text-decoration: none;
+	color: #337ab7;
+}
+footer a:hover {
+	color: #0065d9;
+}
